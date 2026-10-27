@@ -1,23 +1,23 @@
 const NOTES = [
   {
     title: 'Documentary material and historical context',
-    text: 'Each story card keeps what Episode 4 shows or discusses separate from additional historical context. The documentary connection relies only on the PBS episode and its transcript; the wider background comes from the museums, encyclopedias and archives listed above.',
+    text: 'Each story card keeps what Episode 4 actually shows or says separate from extra historical background. The “Connection to the documentary” section only uses the PBS episode and its transcript. Everything else comes from the museums, encyclopedias and archives listed above.',
   },
   {
     title: 'Boundaries are approximate and dated',
-    text: 'Borders changed many times. Historical boundaries such as the Pale of Settlement are simplified outlines labeled with the year they represent, and regions are marked at an approximate center.',
+    text: 'Borders changed a lot over time. Historical boundaries like the Pale of Settlement are shown as simplified outlines labeled with the year they represent, and regions are marked at an approximate center.',
   },
   {
     title: 'Routes are generalized corridors',
-    text: 'Lines on the map show common paths taken by many people over many years. They are not the journey of one person or one family, and the order of the chapters is not a single migration route.',
+    text: 'The lines on the map show common routes that many people took over many years. They are not one person’s or one family’s journey, and the order of the chapters is not one single migration route either.',
   },
   {
     title: 'Marked for verification',
-    text: 'Where a detail could not be fully confirmed, the story card says so with a "Marked for verification" note instead of presenting it as settled fact.',
+    text: 'When a detail couldn’t be fully confirmed, the story card says so in a "Marked for verification" note instead of presenting it as a fact.',
   },
   {
     title: 'A note on the transcript',
-    text: 'PBS’s description of the episode mentions Uman and Rabbi Nachman’s tomb, but the narration in the available transcript never names them; it discusses Hasidism through the town of Satanov. The transcript also does not mention Ellis Island or Bremerhaven, and it names Hamburg only as a destination for timber, not as an emigration port. These places are included as historical context, and their descriptions rely on the historical sources rather than on the episode.',
+    text: 'PBS’s description of the episode mentions Uman and Rabbi Nachman’s tomb, but the narration in the available transcript never names them. It talks about Hasidism through the town of Satanov instead. The transcript also doesn’t mention Ellis Island or Bremerhaven, and it only names Hamburg as a place timber was shipped to, not as an emigration port. These places are still included as historical context, but what the atlas says about them comes from the historical sources, not from the episode.',
   },
 ] as const
 

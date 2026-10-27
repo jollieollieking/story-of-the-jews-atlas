@@ -60,7 +60,7 @@ export function EntryPrompt({ onExplore }: { onExplore: () => void }) {
         </button>
 
         <p className="mt-5 border-t border-line pt-4 text-[0.75rem] leading-relaxed text-mist">
-          Places are mapped by theme; the chapters do not trace a single family's route.
+          The places are grouped by theme. The chapters don’t follow one family’s route.
         </p>
       </div>
     </motion.div>

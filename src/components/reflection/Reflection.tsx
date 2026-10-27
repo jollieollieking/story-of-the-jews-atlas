@@ -10,17 +10,17 @@ const THEMES = [
   {
     numeral: 'I',
     heading: 'Culture',
-    text: 'Jewish communities developed strong traditions that influenced later generations.',
+    text: 'Yiddish, religious traditions and the habit of taking care of each other came with immigrants from the shtetl to New York.',
   },
   {
     numeral: 'II',
     heading: 'Migration',
-    text: 'Movement to new countries created opportunities while transforming community life.',
+    text: 'Moving to America meant more opportunities, but it also changed how Jewish communities worked and who people turned to for advice.',
   },
   {
     numeral: 'III',
     heading: 'Memory',
-    text: 'Remembering the communities that were destroyed helps preserve their history and cultural contributions.',
+    text: 'People like Jakovas in Plungė worked to make sure the Jews murdered in the Holocaust are remembered by name.',
   },
 ] as const
 
@@ -60,9 +60,9 @@ export function Reflection() {
             id="reflection-heading"
             className="mt-8 font-serif text-[clamp(2.5rem,6vw,5.75rem)] font-light uppercase leading-[0.92] tracking-[0.005em] text-parchment"
           >
-            <span className="block">A people.</span>{' '}
-            <span className="block italic text-parchment/85">Many places.</span>{' '}
-            <span className="block text-gold-soft">One enduring history.</span>
+            <span className="block">Seven chapters.</span>{' '}
+            <span className="block italic text-parchment/85">Two continents.</span>{' '}
+            <span className="block text-gold-soft">One episode.</span>
           </h2>
         </Reveal>
 
@@ -70,10 +70,10 @@ export function Reflection() {
 
         <Reveal delay={0.1} className="mt-10 md:mt-14">
           <p className="max-w-4xl font-serif text-[clamp(1.4rem,2.5vw,2.15rem)] font-light leading-[1.32] text-parchment/90">
-            The history of Eastern European Jews was shaped by faith, tradition, migration, and adaptation. As Jewish
-            communities moved across borders, they carried their culture into new places, influencing the world around
-            them. Yet the destruction of many European Jewish communities during the Holocaust also shows the
-            importance of preserving historical memory.
+            Episode 4 follows Jewish life from the shtetls of Eastern Europe to New York and Hollywood. Immigrants
+            brought their traditions, their language and their habits of community with them, and their children
+            helped change American culture. But most of the communities they left behind were destroyed in the
+            Holocaust, and Schama begins and ends the episode there.
           </p>
         </Reveal>
 
