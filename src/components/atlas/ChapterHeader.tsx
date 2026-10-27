@@ -46,7 +46,7 @@ export const ChapterHeader = forwardRef<HTMLDivElement, ChapterHeaderProps>(func
       detail: 'Over the Rainbow',
       title: 'The Atlas',
       subtitle:
-        'Places and themes connected to Episode IV. Select a location, follow the timeline, or take the guided journey.',
+        'The places and events from Episode IV. Pick a place on the map, use the timeline, or take the guided journey.',
     }
   } else if (focus.kind === 'period') {
     const index = periods.findIndex((p) => p.id === view.period.id)

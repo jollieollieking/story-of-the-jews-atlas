@@ -20,8 +20,8 @@ export function ChapterIndex() {
       <div className="flex flex-col gap-2 md:flex-row md:items-baseline md:justify-between">
         <h3 className="label text-gold">Chapters of the atlas</h3>
         <p className="max-w-md text-sm leading-relaxed text-ash md:text-right">
-          Arranged by theme and period, not as the journey of any one person or family. Select a chapter to reopen
-          it on the map.
+          Organized by theme and time period, not as one person’s or one family’s journey. Pick a chapter to open it
+          on the map again.
         </p>
       </div>
 

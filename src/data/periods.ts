@@ -7,7 +7,7 @@ export const periods: Period[] = [
     label: 'Jewish settlement in Eastern Europe',
     years: '1200s–1795',
     description:
-      'Jewish communities grow across the Kingdom of Poland and the Grand Duchy of Lithuania, which unite as the Polish–Lithuanian Commonwealth in 1569.',
+      'Jewish communities grow in the Kingdom of Poland and the Grand Duchy of Lithuania. In 1569 the two join together as the Polish–Lithuanian Commonwealth.',
     chapterIds: ['shtetls'],
     camera: { center: [23.6, 53.0], zoom: 4.5 },
     mobileCamera: { center: [24.0, 53.1], zoom: 3.75 },
@@ -17,7 +17,7 @@ export const periods: Period[] = [
     label: 'Expansion of Russian control',
     years: '1772–1835',
     description:
-      'Russia, Prussia and Austria partition the Commonwealth. The Russian Empire gains a large Jewish population and restricts where Jews may live.',
+      'Russia, Prussia and Austria split up the Commonwealth. Russia gains a large Jewish population and starts limiting where Jews can live.',
     chapterIds: ['pale'],
     camera: { center: [27.5, 51.4], zoom: 4.1 },
     mobileCamera: { center: [27.5, 51.4], zoom: 3.4 },
@@ -27,7 +27,7 @@ export const periods: Period[] = [
     label: 'Life in the Pale of Settlement',
     years: 'Late 1700s–1905',
     description:
-      'Most Jews in the Russian Empire live inside the Pale, where Hasidism, Yiddish culture and new political ideas take shape.',
+      'Most Jews in the Russian Empire live inside the Pale. This is where Hasidism, Yiddish culture and new political ideas develop.',
     chapterIds: ['pale', 'faith-ideas'],
     camera: { center: [28.7, 50.6], zoom: 4.4 },
     mobileCamera: { center: [28.6, 50.0], zoom: 3.6 },
@@ -37,7 +37,7 @@ export const periods: Period[] = [
     label: 'Mass emigration',
     years: '1881–1924',
     description:
-      'Poverty, discrimination and violence push millions of Jews to leave Eastern Europe. Most who cross the Atlantic settle in the United States.',
+      'Poverty, discrimination and violence push millions of Jews to leave Eastern Europe. Most of the ones who cross the Atlantic settle in the United States.',
     chapterIds: ['atlantic', 'lower-east-side'],
     camera: { center: [-36, 47.5], zoom: 2.35 },
     mobileCamera: { center: [-25, 47], zoom: 1 },
@@ -47,7 +47,7 @@ export const periods: Period[] = [
     label: 'Jewish American cultural influence',
     years: '1890s–1940',
     description:
-      'The children of immigrants help shape American popular music on Tin Pan Alley and the new film industry in Hollywood.',
+      'Immigrants and their children help shape American popular music on Tin Pan Alley and the new movie industry in Hollywood.',
     chapterIds: ['american-culture'],
     camera: { center: [-96, 38.6], zoom: 3.35 },
     mobileCamera: { center: [-96, 38.6], zoom: 2.4 },

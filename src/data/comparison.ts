@@ -13,7 +13,7 @@ import type { Comparison, Source } from '../types'
 export const comparison: Comparison = {
   title: 'From the shtetl to the Lower East Side',
   intro:
-    'In Episode 4, Simon Schama calls the Lower East Side a “mega-shtetl.” Set side by side, the two worlds show what immigrants carried with them and what America changed. These are broad patterns: individual towns, neighborhoods and families varied widely.',
+    'In Episode 4, Simon Schama calls the Lower East Side a “mega-shtetl.” Putting the two side by side shows what immigrants brought with them and what changed once they got to America. These are general patterns, since every town, neighborhood and family was different.',
   oldWorld: {
     heading: 'The shtetl',
     place: 'Jewish market towns of Eastern Europe',
@@ -22,23 +22,23 @@ export const comparison: Comparison = {
     points: [
       {
         label: 'Home',
-        text: 'Most buildings were wooden, and the town centered on a market square. Unpaved streets turned to mud in spring and fall, and fires were common.',
+        text: 'Most buildings were made of wood, and the town was built around a market square. The dirt streets turned to mud in spring and fall, and fires happened a lot.',
       },
       {
         label: 'Work',
-        text: 'Market day was the town’s lifeblood, when peasants came to trade. Jews worked as shopkeepers, tailors, shoemakers, carpenters, wagon drivers and water carriers.',
+        text: 'Market day, when peasants came into town to trade, was the most important day for business. Jews worked as shopkeepers, tailors, shoemakers, carpenters, wagon drivers and water carriers.',
       },
       {
         label: 'Language',
-        text: 'Yiddish was the everyday language, rich in sayings drawn from religious tradition. It borrowed many Slavic words, yet set Jews apart from their mostly Slavic neighbors.',
+        text: 'Yiddish was the everyday language, and it had lots of sayings that came from religious tradition. It borrowed many Slavic words, but it still set Jews apart from their mostly Slavic neighbors.',
       },
       {
         label: 'Faith',
-        text: 'A shtetl was big enough to support at least one synagogue, a ritual bath, a cemetery and schools. The Sabbath was the week’s one real time of rest.',
+        text: 'A shtetl was big enough to have at least one synagogue, a ritual bath, a cemetery and schools. The Sabbath was the only real time of rest all week.',
       },
       {
         label: 'Community',
-        text: 'Volunteer societies buried the dead, visited the sick and gave dowries to poor brides. It was a face-to-face world where almost everyone was known by name.',
+        text: 'Volunteer groups buried the dead, visited the sick and gave dowries to poor brides. It was a small world where almost everyone knew each other by name.',
       },
     ],
   },
@@ -50,23 +50,23 @@ export const comparison: Comparison = {
     points: [
       {
         label: 'Home',
-        text: 'Many families lived in tenements, crowded walk-up buildings. One of them, 97 Orchard Street, housed an estimated 7,000 people from over 20 nations between 1863 and 1935.',
+        text: 'Many families lived in tenements, which were crowded walk-up buildings. One of them, 97 Orchard Street, was home to an estimated 7,000 people from over 20 countries between 1863 and 1935.',
       },
       {
         label: 'Work',
-        text: 'Many worked in the garment trade, often in small shops or at home; one Orchard Street block once had over 100 apartments with clothing workshops. Others peddled from pushcarts.',
+        text: 'Many people worked in the garment trade, often in small shops or at home. One block of Orchard Street once had over 100 apartments with clothing workshops. Others sold from pushcarts.',
       },
       {
         label: 'Language',
-        text: 'Yiddish stayed the language of home and street. Yiddish newspapers, theater and poetry flourished; Episode 4 says the Forward introduced readers to baseball and voting.',
+        text: 'Yiddish was still the language of home and the street. Yiddish newspapers, theater and poetry did well, and Episode 4 says the Forward introduced readers to baseball and voting.',
       },
       {
         label: 'Faith',
-        text: 'Most immigrants were Orthodox, but the race to get ahead made the Sabbath hard to keep. Episode 4 says the Forward and a bank took over the rabbi’s authority.',
+        text: 'Most immigrants were Orthodox, but working to get ahead made it hard to keep the Sabbath. Episode 4 says the Forward and a bank took over the rabbi’s authority.',
       },
       {
         label: 'Community',
-        text: 'Hometown societies (landsmanshaftn), unions and charities took over old roles. In 1909–1910, Episode 4 notes, over 80,000 mostly Jewish garment workers went on strike.',
+        text: 'Hometown societies (landsmanshaftn), unions and charities took over jobs the old community used to do. Episode 4 says over 80,000 mostly Jewish garment workers went on strike in 1909–1910.',
       },
     ],
   },

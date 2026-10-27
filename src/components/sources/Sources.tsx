@@ -29,7 +29,7 @@ export function Sources() {
     blocks.push({
       id: 'sources-documentary',
       title: 'Documentary reference',
-      intro: 'The episode this atlas is based on, and the program page and transcript used to check what it shows.',
+      intro: 'The episode this project is based on, plus the program page and transcript used to check what it says.',
       content: <DocumentarySources items={documentarySources} />,
     })
   }
@@ -37,7 +37,7 @@ export function Sources() {
     blocks.push({
       id: 'sources-historical',
       title: 'Historical sources',
-      intro: 'Museums, encyclopedias and archives behind the additional historical context on each story card.',
+      intro: 'The museums, encyclopedias and archives used for the extra historical background on each story card.',
       content: <HistoricalSources sources={historicalSources} />,
     })
   }
@@ -45,7 +45,7 @@ export function Sources() {
     blocks.push({
       id: 'sources-images',
       title: 'Image credits',
-      intro: 'Every archival image in the atlas, with its creator, holding institution, license and source page.',
+      intro: 'Every historical image in the atlas, with who made it, where it is held, its license and where it came from.',
       content: <ImageCredits images={images} />,
     })
   }
@@ -53,13 +53,13 @@ export function Sources() {
     {
       id: 'sources-map',
       title: 'Map data & software',
-      intro: 'The open data, libraries and typefaces that draw the map and the page.',
+      intro: 'The open map data, code libraries and fonts used to build the map and the site.',
       content: <MapCredits />,
     },
     {
       id: 'sources-method',
       title: 'About this atlas',
-      intro: 'How the atlas was put together, and how to read it.',
+      intro: 'How the atlas was made and how to read it.',
       content: <Methodology />,
     },
   )
@@ -90,8 +90,8 @@ export function Sources() {
           <GoldRule className="mt-10 w-32 md:w-48" />
           <Reveal delay={0.1}>
             <p className="mt-8 max-w-2xl text-pretty text-base leading-relaxed text-mist md:text-[1.05rem]">
-              What this atlas is built on: the documentary episode, the historical references behind each story card,
-              the archival images, and the open map data and software that draw it.
+              Everything this project used: the documentary episode, the historical sources behind each story card,
+              the archival images, and the open map data and software that make the atlas work.
             </p>
             {counts.length > 0 && <p className="label mt-6 text-parchment/70">{counts.join(' · ')}</p>}
           </Reveal>

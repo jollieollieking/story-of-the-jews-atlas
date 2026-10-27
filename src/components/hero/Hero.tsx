@@ -109,12 +109,12 @@ export function Hero() {
             className="mt-7 max-w-[33rem] font-serif text-[1.25rem] leading-[1.42] text-parchment/85 md:mt-9 md:text-[1.5rem] min-[1800px]:max-w-[40rem] min-[1800px]:text-[1.875rem]"
             {...rise(1.3)}
           >
-            From the shtetls of Eastern Europe to the streets of New&nbsp;York — a journey through faith, migration,
-            culture, and survival.
+            How Jewish life moved from the shtetls of Eastern Europe to New&nbsp;York, and what was lost in the
+            Holocaust.
           </motion.p>
 
           <motion.p className="mt-4 max-w-[36rem] text-[0.8125rem] leading-relaxed text-mist min-[1800px]:max-w-[44rem] min-[1800px]:text-[0.9375rem]" {...rise(1.45)}>
-            An interactive historical atlas inspired by Simon Schama’s documentary{' '}
+            An interactive history project based on Simon Schama’s documentary{' '}
             <span className="text-gold-dim" aria-hidden="true">
               •
             </span>{' '}
